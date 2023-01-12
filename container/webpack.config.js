@@ -58,9 +58,9 @@ module.exports = {
       filename: 'remoteEntry.js',
       remotes: {
         header: 'header@https://reactjs-mf-shopping-cart-header.netlify.app/remoteEntry.js',
-        footer: 'header@http://localhost:3004/remoteEntry.js',
+        footer: 'header@https://reactjs-mf-shopping-cart-header.netlify.app/remoteEntry.js',
         products: 'products@https://reactjs-mf-shopping-cart-products.netlify.app/remoteEntry.js',
-        store: 'store@http://localhost:3003/remoteEntry.js',
+        store: 'store@https://reactjs-mf-shopping-cart-store.netlify.app/remoteEntry.js',
         cart: 'cart@https://reactjs-mf-shopping-cart-store.netlify.app/remoteEntry.js',
         pdp: 'pdp@http://localhost:3005/remoteEntry.js',
       },
