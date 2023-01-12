@@ -13,6 +13,7 @@ const Header = ({ state }) => {
     <div className='navbar'>
       <Link to='/'>
         <h2>Spray & Cream</h2>
+        <p>React js module federation shopping cart app</p>
       </Link>
 
       <Link to='/cart' className='show-cart'>
