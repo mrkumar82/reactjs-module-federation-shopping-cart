@@ -4,7 +4,7 @@ const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPl
 const deps = require('./package.json').dependencies;
 module.exports = {
   output: {
-    publicPath: 'http://localhost:3001/',
+    publicPath: 'https://reactjs-mf-shopping-cart-products.netlify.app/',
   },
 
   resolve: {
@@ -55,7 +55,7 @@ module.exports = {
       name: 'products',
       filename: 'remoteEntry.js',
       remotes: {
-        store: 'store@http://localhost:3003/remoteEntry.js',
+        store: 'store@https://reactjs-mf-shopping-cart-store.netlify.app/remoteEntry.js',
       },
       exposes: {
         './ProductsList': './src/ProductList',
