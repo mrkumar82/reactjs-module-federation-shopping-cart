@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p-detail {
+}
+
+.p-detail .img-wrap {
+  max-height: unset;
+  overflow: visible;
+  min-height: unset;
+  width: 50%;
+  flex: 1 0 50%;
+}
+.p-detail .item {
+  max-width: 100%;
+}
+.p-detail .item-content {
+  display: flex;
+  width: 100%;
+  flex: 1 0 100%;
+}
+.p-detail .price-quantity {
+  padding-left: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.p-detail .details {
+  padding-left: 50px;
+}
