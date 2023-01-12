@@ -4,7 +4,7 @@ const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPl
 const deps = require('./package.json').dependencies;
 module.exports = {
   output: {
-    publicPath: 'http://localhost:3002/',
+    publicPath: 'https://reactjs-mf-shopping-cart-cart.netlify.app/',
   },
 
   resolve: {
@@ -32,9 +32,20 @@ module.exports = {
       {
         test: /\.(ts|tsx|js|jsx)$/,
         exclude: /node_modules/,
-        use: {
+        use: [{
           loader: 'babel-loader',
-        },
+          options: {
+            presets: [
+              ['@babel/preset-env', {
+                "targets": "defaults"
+              }],
+              '@babel/preset-react'
+            ],
+            plugins: [
+              "@babel/plugin-proposal-class-properties"
+            ]
+          }
+        }]
       },
     ],
   },
