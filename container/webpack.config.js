@@ -6,7 +6,7 @@ module.exports = {
   mode: 'development',
   devtool: 'source-map',
   output: {
-    publicPath: 'http://localhost:3000/',
+    publicPath: 'https://reactjs-mf-shopping-cart.netlify.app/',
   },
 
   resolve: {
@@ -59,9 +59,9 @@ module.exports = {
       remotes: {
         header: 'header@http://localhost:3004/remoteEntry.js',
         footer: 'header@http://localhost:3004/remoteEntry.js',
-        products: 'products@http://localhost:3001/remoteEntry.js',
+        products: 'products@https://reactjs-mf-shopping-cart-products.netlify.app/remoteEntry.js',
         store: 'store@http://localhost:3003/remoteEntry.js',
-        cart: 'cart@http://localhost:3002/remoteEntry.js',
+        cart: 'cart@https://reactjs-mf-shopping-cart-store.netlify.app/remoteEntry.js',
         pdp: 'pdp@http://localhost:3005/remoteEntry.js',
       },
       exposes: {},
