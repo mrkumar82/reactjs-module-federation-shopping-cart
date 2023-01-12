@@ -61,7 +61,7 @@ module.exports = {
         footer: 'header@https://reactjs-mf-shopping-cart-header.netlify.app/remoteEntry.js',
         products: 'products@https://reactjs-mf-shopping-cart-products.netlify.app/remoteEntry.js',
         store: 'store@https://reactjs-mf-shopping-cart-store.netlify.app/remoteEntry.js',
-        cart: 'cart@https://reactjs-mf-shopping-cart-store.netlify.app/remoteEntry.js',
+        cart: 'cart@https://reactjs-mf-shopping-cart-cart.netlify.app/remoteEntry.js',
         pdp: 'pdp@https://reactjs-mf-shopping-cart-pdp.netlify.app/remoteEntry.js',
       },
       exposes: {},
