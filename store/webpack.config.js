@@ -6,7 +6,7 @@ module.exports = {
   mode: 'development',
   devtool: 'source-map',
   output: {
-    publicPath: 'http://localhost:3003/',
+    publicPath: 'https://reactjs-mf-shopping-cart-store.netlify.app/',
   },
 
   resolve: {
